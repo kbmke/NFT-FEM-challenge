@@ -85,7 +85,7 @@ h6 {
 }
 
 body {
-  background-color: hsl(215, 54%, 7%);
+  background-color: hsl(217, 54%, 11%);
   width: 100vw;
   height: 100vh;
   font-size: 18px;
@@ -94,7 +94,7 @@ body {
 }
 
 .card {
-  background-color: hsl(217, 54%, 11%);
+  background-color: hsl(216, 50%, 16%);
   width: 340px;
   height: 590px;
   display: absolute;
@@ -127,8 +127,8 @@ body {
   font-weight: 300;
   margin-left: 15px;
   line-height: 2;
-  padding-right: 40px;
-  padding-bottom: 25px;
+  padding-right: 15px;
+  padding-bottom: 15px;
 }
 
 .lower {
@@ -139,12 +139,12 @@ body {
   /* border: 1px solid greenyellow; */
   /* margin: auto 0; */
   /* align-self: center; */
-  /* justify-content: center; */
+  justify-content: space-between;
 }
 
 .type {
-  align-items: center;
-  align-content: center;
+  justify-content: space-between;
+  display: flex;
   padding-left: 10px;
 }
 
@@ -183,19 +183,23 @@ body {
 .time {
   display: flex;
   justify-content: space-between;
-  align-content: center;
-  align-items: center;
 }
 
 .line {
-  width: 295px;
-  border-bottom: 1px solid #fff;
+  color: hsl(215, 51%, 70%);
+  /* width: 295px; */
+  /* border-bottom: 1px solid #fff; */
   margin: 20px auto 5px;
 }
 
 .creator {
-  padding: 15px 5px 0 20px;
-  float: left;
+  /* border: 1px solid white; */
+  display: inline;
+  /* flex-direction: row; */
+  /* padding: 15px 5px 0 20px; */
+  /* align-items: center; */
+  align-content: center;
+  /* align-self: center; */
 }
 
 .creator img {
