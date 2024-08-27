@@ -177,10 +177,12 @@ body {
 
 .type {
   display: flex;
+  justify-content: space-between;
 }
 
 .time {
-  float: left;
+  display: flex;
+  justify-content: space-between;
   align-content: center;
   align-items: center;
 }
